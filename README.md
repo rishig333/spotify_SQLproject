@@ -2,13 +2,19 @@
 1. Data Exploration
 Before diving into SQL, it’s important to understand the dataset thoroughly. The dataset contains attributes such as:
 
+
+
 Artist: The performer of the track.
 Track: The name of the song.
 Album: The album to which the track belongs.
 Album_type: The type of album (e.g., single or album).
 Various metrics such as danceability, energy, loudness, tempo, and more.
-4. Querying the Data
+
+
+
+2. Querying the Data
 After the data is inserted, various SQL queries can be written to explore and analyze the data. Queries are categorized into easy, medium, and advanced levels to help progressively develop SQL proficiency.
+
 
 Easy Queries
 Simple data retrieval, filtering, and basic aggregations.
