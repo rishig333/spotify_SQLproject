@@ -99,3 +99,9 @@ select album,  max(energy)as highest_energy ,
 min(energy) as lowest_energy from spotify
 group by album )
 select album , highest_energy-lowest_energy as enerfy_difference from cte
+
+--16 Find tracks where the energy-to-liveness ratio is greater than 1.2.
+
+SELECT track, energy, liveness
+FROM spotify
+WHERE energy / NULLIF(liveness, 0) > 1.2;
